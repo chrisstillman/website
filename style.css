@@ -30,7 +30,7 @@ body {
   .headerleft {
     flex: 1;
     justify-content: flex-start;
-    padding-left: 20px;
+    padding-left: 40px;
   }
   
   .headercenter {
@@ -41,11 +41,12 @@ body {
   .headerright {
     flex: 1;
     justify-content: flex-end;
-    padding-right: 20px;
+    padding-right: 40px;
   }
   
   .icon {
-    margin-right: 20px;
+    margin-right: 10px;
+    margin-left: 10px;
     font-size: 30px;
     color: #007bff;
     text-decoration: none;
@@ -55,3 +56,7 @@ body {
     color: #6298d1;
   }
   
+  .logo {
+    max-width: 200px;
+    height: auto;
+  }
