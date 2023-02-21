@@ -60,3 +60,22 @@ body {
     max-width: 200px;
     height: auto;
   }
+
+  .my-button {
+    background: none;
+    border: none;
+    padding: 0;
+    font-family: 'Helvetica Neue', sans-serif;
+    margin-right: 50px;
+  }
+
+  .my-button a {
+    color: #007bff;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 16px;
+  }
+
+  .my-button a:hover {
+    color: #6298d1;
+  }
